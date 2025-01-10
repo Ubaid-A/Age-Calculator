@@ -73,3 +73,37 @@ p{
     font-weight: 400;
 }
 
+
+/* Responsive Styles */
+@media (max-width: 300px) {
+    .container {
+        width: 90%;
+        min-width: unset;
+        padding: 20px 15px;
+    }
+    .input-sec {
+        padding: 15px 10px;
+    }
+    input, button {
+        height: 40px;
+        font-size: 12px;
+    }
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    button {
+        width: 100%;
+    }
+    .outputs {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .outputs div {
+        height: 80px;
+        width: 80px;
+    }
+    span, p {
+        font-size: 12px;
+    }
+}
